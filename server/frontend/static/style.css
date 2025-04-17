@@ -124,3 +124,20 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-block {
+    width: 50%;
+    text-align: center;
+}
+
+.contact-block img {
+    max-width: 200px;
+}
+
+.contact-block:not(:first-of-type) {
+    border-left: 4px solid black;
+}
+
+.contact-item__title {
+    font-weight: bold;
+}
